@@ -11,5 +11,7 @@ date: 2019-08-26
 * [豆瓣热门电影](douban.py)
 * [百度贴吧自动打卡](baidu/tiebaSign.py)
   > 需要用手机百度扫码登录，以后就不用登录了
+* [内建字符串使用](buildin/string_functions.py)
+* [内建列表的使用](buildin/list.py)
 ---
 ### 待续
