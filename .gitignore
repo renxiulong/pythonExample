@@ -1,2 +1,4 @@
 ##ignore this file##
 /.idea/
+*.pyc
+sinaSpider/sinaSpider/__pycache__/*.pyc
