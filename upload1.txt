@@ -1,0 +1,81 @@
+上传图片
+General
+Request URL: https://mp.toutiao.com/tools/upload_picture/?type=ueditor&pgc_watermark=1&action=uploadimage&encode=utf-8
+Request Method: POST
+Status Code: 200 OK
+Remote Address: 119.167.168.230:443
+Referrer Policy: no-referrer-when-downgrade
+
+Response Header
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Encoding: gzip
+Content-Type: application/json
+Date: Thu, 12 Sep 2019 06:52:46 GMT
+EagleId: 77a7a81a15682711661177154e
+Server: Tengine
+server-timing: inner; dur=92
+Set-Cookie: uid_tt=b3a49c7d56ae95737047618a0550ca0a; Domain=.toutiao.com; Expires=Fri, 27-Sep-2019 14:52:46 GMT; HttpOnly; Path=/
+stablecode: 0
+Timing-Allow-Origin: *
+Transfer-Encoding: chunked
+upstream-caught: 1568271166208839
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Via: cache2.l2cm9-2[185,0], cache6.cn1864[187,0]
+X-TT-LOGID: 201909121452460101520260712046D1
+X-UA-Compatible: IE=Edge,chrome=1
+X_TT_LOGID: 201909121452460101520260712046D1
+
+Response Body
+{
+  "title": "",
+  "url": "https://p9-tt.byteimg.com/large/pgc-image/99afbc88ee5e4a89b6748c43baa4b757",
+  "height": 558,
+  "width": 440,
+  "state": "SUCCESS",
+  "web_url": "https://p9-tt.byteimg.com/large/pgc-image/99afbc88ee5e4a89b6748c43baa4b757",
+  "wm_uri_media": "",
+  "web_uri": "pgc-image/99afbc88ee5e4a89b6748c43baa4b757",
+  "image_type": 1,
+  "origin_web_uri": "pgc-image/99afbc88ee5e4a89b6748c43baa4b757",
+  "message": "success",
+  "original": "pgc-image/99afbc88ee5e4a89b6748c43baa4b757",
+  "mime_type": "image/jpeg"
+}
+
+Request Headers
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 156181
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary0r58zk1Zi0ZHx0W0
+Cookie: tt_webid=6652114556993373708; gr_user_id=fb23d48d-8c39-477e-b9ca-473a7c01fdcf; grwng_uid=300c672c-254f-4037-9810-d1294c6648fe; __tea_sdk__ssid=e3c244c0-1852-4f46-8679-79b3b22d8086; _ga=GA1.2.1658463968.1548834667; _ba=BA0.2-20190130-5110e-gUUdk1aB6qeP38OXDM7d; uuid="w:85b3f70ec1f44e79847f05fc8d70f8e1"; passport_auth_status=72bc0bce8d8f948d41d48198a4172aff; sso_auth_status=e22713719a8778d85a2640d3ae0f03c7; sso_uid_tt=b3a49c7d56ae95737047618a0550ca0a; toutiao_sso_user=abf2bcf788428f3e3c4ac19f12d09c87; _mp_test_key_1=1f6264f881a98d6ad20fa6f12014c791; sid_guard=abf2bcf788428f3e3c4ac19f12d09c87%7C1566617729%7C4828158%7CSat%2C+19-Oct-2019+00%3A44%3A47+GMT; uid_tt=b3a49c7d56ae95737047618a0550ca0a; sid_tt=abf2bcf788428f3e3c4ac19f12d09c87; sessionid=abf2bcf788428f3e3c4ac19f12d09c87; _mp_auth_key=e22713719a8778d85a2640d3ae0f03c7; _mp_auth_key=e22713719a8778d85a2640d3ae0f03c7
+Host: mp.toutiao.com
+Origin: https://mp.toutiao.com
+Referer: https://mp.toutiao.com/profile_v3/graphic/publish
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36
+
+Query String Parameters
+type: ueditor
+pgc_watermark: 1
+action: uploadimage
+encode: utf-8
+
+Form Data
+type: image/jpeg
+upfile: (binary)
+
+------WebKitFormBoundary0r58zk1Zi0ZHx0W0
+Content-Disposition: form-data; name="type"
+
+image/jpeg
+------WebKitFormBoundary0r58zk1Zi0ZHx0W0
+Content-Disposition: form-data; name="upfile"; filename="06d6-iekuaqu0298971.jpg"
+Content-Type: image/jpeg
+
+
+------WebKitFormBoundary0r58zk1Zi0ZHx0W0--
